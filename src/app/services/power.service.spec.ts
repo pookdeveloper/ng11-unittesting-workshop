@@ -14,10 +14,10 @@ describe('PowerService', () => {
     expect(service).toBeTruthy();
   });
 
-
-  it('should be created', () => {
-    service.power(2, 2)
-    expect(service).toBeTruthy();
+  it('should return 4', () => {
+    let result = service.power(2, 2)
+    expect(result).toBe(4);
+    expect(typeof result).toBe('number')
   });
 
 });

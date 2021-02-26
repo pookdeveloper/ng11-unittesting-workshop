@@ -13,4 +13,11 @@ describe('PowerService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+
+  it('should be created', () => {
+    service.power(2, 2)
+    expect(service).toBeTruthy();
+  });
+
 });
